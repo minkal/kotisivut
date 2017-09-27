@@ -1,0 +1,40 @@
+body {
+	max-width: 1000px;
+	min-height: 100%;
+}
+
+.menubar {
+	background-color: aqua;
+}
+
+.header {
+	background-color: olivedrab;
+	text-align: center;
+}
+
+.container {
+	background-color: burlywood;
+	min-height: 24vh;
+	text-align: center;
+}
+
+.footer {
+	background-color: darksalmon;
+}
+
+.bigwindow {
+	display: inline-block;
+	margin: 1%;
+	width: 30%;
+	min-width: 200px;
+	max-width: 200px;
+	min-height: 200px;
+	border-style: dotted;
+}
+
+/* Tekstityylit */
+h1.mainTitle {
+	font-size: 4em;
+	font-family: "Courier New", Lucida console, monospace;
+	color: darkslategray;
+}
